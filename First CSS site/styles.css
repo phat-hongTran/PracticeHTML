@@ -1,0 +1,16 @@
+#main {
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#main h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blueviolet;
+    font-size: 72px;
+}
+
+body {
+    background-image: url(https://plus.unsplash.com/premium_photo-1701520913496-503a71946555?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJlc2VudGF0aW9uJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D);
+    background-repeat: no-repeat;
+}
