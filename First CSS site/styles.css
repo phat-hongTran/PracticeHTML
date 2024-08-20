@@ -59,6 +59,33 @@ body {
     width: 50%;
     display: flex;
     justify-content: flex-end;
+    margin-top: 10px;
+}
+
+#menu-items button {
+    background-color: transparent;
+    border: none;
+    border-radius: 1px;
+    min-height: 30px;
+    min-width: 60px;
+    margin-right: 5px;
+}
+
+#menu-items button:hover {
+    background-color:#ffbf00;
+    border-radius: 1px;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+    transition: 0.7s;
+}
+
+#menu-items button:active {
+    background-color: #002ead;
+}
+
+#menu-items button:focus {
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px #5a01a7;
 }
 
 .item {
